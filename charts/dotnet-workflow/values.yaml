@@ -33,8 +33,8 @@ resources:
   requests:
     cpu: 50m
     memory: 50M
-livenessProbe: {}
-readinessProbe: {}
+livenessProbe: null
+readinessProbe: null
 autoscaling:
   enabled: false
   minReplicas: 1
