@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dotnet-workflow
+  description: Dot Net app. Named dotnet-workflow
+  annotations:
+    github.com/project-slug: silverkeytech/dotnet-workflow
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental

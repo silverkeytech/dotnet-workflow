@@ -1,0 +1,10 @@
+replicaCount: 2
+image:
+  repository: registry.arc-center.run/silverkeytech/dotnet-workflow
+  pullPolicy: IfNotPresent
+  tag: dotnet-workflow-dev-latest
+
+resources:
+  requests:
+    cpu: 60m
+    memory: 60M
