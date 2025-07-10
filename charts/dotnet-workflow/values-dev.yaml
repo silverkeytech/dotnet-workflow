@@ -2,4 +2,4 @@ replicaCount: 1
 image:
   repository: registry.arc-center.run/silverkeytech/dotnet-workflow
   pullPolicy: IfNotPresent
-  tag: a75349
+  tag: 1ff749
